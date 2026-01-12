@@ -54,6 +54,49 @@ header p {
   margin-bottom: 30px;
 }
 
+.header-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.header-buttons .btn {
+  width: 250px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+}
+
+/* BOTÃO BRANCO */
+.header-buttons .btn.primary {
+  background-color: #ffffff;
+  color: #020A47;
+  border: 2px solid #ffffff;
+}
+
+/* BOTÃO AZUL */
+.header-buttons .btn.secondary {
+  background-color: #020A47;
+  color: #ffffff;
+  border: 2px solid #ffffff; 
+}
+
+.header-buttons .btn.secondary:hover {
+  background-color: #ffffff;
+  color: #020A47;
+  border: 2px solid #020A47;
+}
+
 .logo-topo {
   max-width: 400px;
   margin-top: -150px;
@@ -117,6 +160,7 @@ header p {
 /* SECTIONS */
 section {
   padding: 80px 10%;
+  overflow: hidden;
 }
 
 section h2 {
