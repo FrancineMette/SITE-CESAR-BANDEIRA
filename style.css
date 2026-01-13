@@ -756,3 +756,15 @@ section h2 {
   transform: scale(1.1);
 }
 
+.site-footer {
+  background-color: #dedede;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.site-footer p {
+  color: #020A47;
+  font-size: 14px;
+}
+
