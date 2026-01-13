@@ -484,18 +484,59 @@ section h2 {
   line-height: 1.4;
 }
 
-#modelos {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+.modelos-section {
+  padding: 80px 20px;
+  text-align: center;
 }
 
-#modelos img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.modelos-section h2 {
+  margin-bottom: 50px;
+  color: #020A47;
 }
+
+.modelos-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.modelo-card {
+  background-color: #020A47;
+  padding: 30px 20px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.modelo-card:hover {
+  transform: translateY(-6px);
+}
+
+.modelo-card img {
+  max-height: 220px;
+  margin-bottom: 20px;
+}
+
+.modelo-card h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .modelos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .modelos-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 /* CONTATO */
 .contato-section {
