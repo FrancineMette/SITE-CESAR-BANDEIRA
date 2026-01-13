@@ -1,0 +1,95 @@
+/* HEADER */
+
+.header-clientes {
+  padding: 80px 8%;
+  background: #020A47;
+  color: #fff;
+  text-align: left;  
+}
+
+.header-clientes .header-content {
+  max-width: 1200px;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.header-clientes h1 {
+  font-family: 'Arimo', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header-clientes p {
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* SECTION CLIENTES */
+
+.clientes-section {
+  padding: 80px 5%;
+  background: #f6f7f9;
+}
+
+.clientes-section h2 {
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  color: #020A47;
+}
+
+/* GRID */
+
+.clientes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 40px;
+  align-items: center;
+}
+
+/* LOGO */
+
+.cliente-item {
+  background: #020A47;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.cliente-item img {
+  max-width: 120px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.cliente-item:hover img {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* CTA FINAL */
+
+.clientes-cta {
+  padding: 80px 5%;
+  background: #020A47;
+  color: #fff;
+  text-align: center;
+}
+
+.clientes-cta h3 {
+  font-family: 'Arimo', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.clientes-cta p {
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
