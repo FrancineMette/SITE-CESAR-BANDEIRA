@@ -704,3 +704,55 @@ section h2 {
   background: #0a2cff; /* azul mais vivo */
   transform: translateY(-2px);
 }
+
+/* BOTÃO VOLTAR AO TOPO */
+
+#btn-topo {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #020A47;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#btn-topo:hover {
+  transform: translateY(-5px);
+}
+
+/* BOTÃO WHATSAPP */
+
+#btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+#btn-whatsapp img {
+  width: 28px;
+  height: 28px;
+}
+
+#btn-whatsapp:hover {
+  transform: scale(1.1);
+}
+

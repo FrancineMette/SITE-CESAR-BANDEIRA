@@ -8,6 +8,21 @@
 </head>
 <body>
 
+  <header class="header-galeria">
+  <img src="Imagens/arabesco.svg" alt="Arabesco" class="arabesco">
+
+  <div class="header-content">
+    <img src="Imagens/logo-topo.svg" alt="Agência Cesar Bandeiras" class="logo-topo">
+    <h1>Catálogo de Produtos</h1>
+    <p>Conheça nossos modelos de windflags e escolha o tamanho ideal para destacar sua marca com impacto e elegância.</p>
+
+    <div class="header-buttons">
+      <a href="index.html" class="btn secondary">Voltar ao Início</a>
+      <a href="https://w.app/cesarbandeiras" target="_blank" class="btn primary">Solicitar Orçamento</a>
+    </div>
+  </div>
+</header>
+
 <section class="catalogo">
 
   <h2>Catálogo de Produtos</h2>
@@ -121,6 +136,39 @@
   </div>
 
 </section>
+
+<!-- BOTÃO VOLTAR AO TOPO -->
+<button id="btn-topo" aria-label="Voltar ao topo">
+  ↑
+</button>
+
+<!-- BOTÃO WHATSAPP -->
+<a 
+  href="https://w.app/cesarbandeiras" 
+  target="_blank" 
+  id="btn-whatsapp"
+  aria-label="WhatsApp">
+  <img src="Imagens/whats.svg" alt="WhatsApp">
+</a>
+
+<script>
+  const btnTopo = document.getElementById('btn-topo');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      btnTopo.style.display = 'block';
+    } else {
+      btnTopo.style.display = 'none';
+    }
+  });
+
+  btnTopo.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
 
 </body>
 </html>
