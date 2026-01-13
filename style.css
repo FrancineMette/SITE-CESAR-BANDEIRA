@@ -1067,6 +1067,16 @@ section h2 {
   }
 }
 
+@media (max-width: 768px) {
+  .contato-info li {
+    color: #ffffff;
+  }
+
+  .contato-info li a,
+  .contato-info li span {
+    color: #ffffff !important;
+  }
+}
 
 
 
