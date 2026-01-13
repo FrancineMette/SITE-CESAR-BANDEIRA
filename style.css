@@ -1078,5 +1078,17 @@ section h2 {
   }
 }
 
+@media (max-width: 768px) {
+  .logo-topo {
+    margin: -50px; /* reduz espaço acima da logo */
+    max-width: 250px; /* opcional, se quiser ajustar tamanho também */
+  }
+
+  header h1 {
+    font-size: 32px;   /* já tinha, mantém */
+    margin-top: 10px;  /* cria um espacinho menor entre logo e h1 */
+    line-height: 1.2;  /* diminui altura das linhas do h1 */
+  }
+}
 
 
